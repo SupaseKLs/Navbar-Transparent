@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(https://youimg1.tripcdn.com/target/100m1f000001gzn8h9DEE_D_1180_558.jpg?proc=source%2Ftrip);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: kanit;
+}
+
+ul {
+    display: flex;
+}
+ul li {
+    list-style: none;
+    margin: 0 3rem;
+}
